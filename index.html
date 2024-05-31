@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<script src="js/index.js"></script>
+	<title>Practice-Image Tags</title>
+</head>
+<body>
+	<h1>Image Tags</h1>
+	<h2>Picture Tag</h2>
+	<picture>
+		<source srcset="assets/desert.jpeg" media="(min-width:1300px)" />
+	<source srcset="assets/download.jpeg" media="(min-width:400px) and (max-width:800px)" />
+<img srcset="assets/nature2.jpeg" alt="nature" style="width:100%;" />
+</picture>
+<img src="assets/nature2.jpeg" alt="nature" usemap="#map1" />
+<map name="map1">
+<area shape="default" coords="0,20,20,100" href="map1.html" alt="map1" />
+</map>
+</body>
+</html>
