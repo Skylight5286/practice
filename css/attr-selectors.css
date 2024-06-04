@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+div[class="container"] {
+  width: 100%;
+  text-align: center;
+  background-color: hsl(44,80%,33%);
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+a[class|="text"] {
+  text-decoration: none;
+}
+
+.container div {
+  float: left;
+  width: 33.33%;
+  box-sizing: border-box;
+  transform: translate(0,-50%);
+}
+.container div a {
+  color: hsl(354,44%,67%);
+  background-color: hsl(301,77%,24%);
+  display: block;
+}
+.container div:not(.container div:last-child) {
+  border-right: 1px solid hsl(3,88%,54%);
+}

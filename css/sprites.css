@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  overflow: auto;
+}
+div.container div {
+  margin-bottom: 10px;
+  border-bottom: 2px solid hsl(300,66%,44%);
+}
+#sprite1 {
+  width: 800px;
+  height: 500px;
+  background: url("../assets/cat_sprites.jpg") -200px -300px;
+}
+#sprite2 {
+  width: 800px;
+  height: 500px;
+  background: url("../assets/cat_sprites.jpg") -1050px -1100px;
+}
